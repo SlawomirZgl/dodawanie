@@ -10,6 +10,6 @@ public class DodawanieApplication {
         SpringApplication.run(DodawanieApplication.class, args);
     }
     public int added(int a, int b) {
-        return a - b;   //celowy blad, zeby testy nieprzechodzily
+        return a + b;   //celowy blad, zeby testy nieprzechodzily
     }
 }
